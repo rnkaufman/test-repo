@@ -17,8 +17,6 @@ const user = {
 };
 
 console.log(`Hello, ${user.name}!`);
-console.log(`City: ${user.address.city ?? "Unknown"}`);
-console.log(`Street: ${user.address.street ?? "Unknown"}`);
 ```
 
 ## This section has syntax parsing issues on GitHub now because of the above code block
